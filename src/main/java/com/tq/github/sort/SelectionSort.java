@@ -1,7 +1,7 @@
 package com.tq.github.sort;
 
 /**
- * @author ：lh
+ * @author ：
  * @date ：Created in 2020/12/8 23:31
  * @description：选择排序
  */
@@ -19,7 +19,7 @@ public class SelectionSort {
 
     public static void main(String[] args) {
 
-        int arr[] = {1, 23, 324, 24, 1, 2243, 234234, 2, 45, 6767, 8, 33};
+        int[] arr = {1, 23, 324, 24, 1, 2243, 234234, 2, 45, 6767, 8, 33};
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = i; j < arr.length; j++) {
